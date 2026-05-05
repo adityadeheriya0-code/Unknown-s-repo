@@ -1,0 +1,9 @@
+{
+    "name": "Unknown's Repo",
+    "iconUrl": "https://www.pinterest.com/pin/44895327534574345/",
+    "description": "My CloudStream Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/refs/heads/builds/plugins.json"
+    ]
+}

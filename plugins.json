@@ -1,0 +1,1881 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AllMovieLandProvider.cs3",
+        "status": 1,
+        "version": 18,
+        "name": "AllMovieLandProvider",
+        "internalName": "AllMovieLandProvider",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Indian MultiLanguage Provider (Mostly Hindi)",
+        "fileSize": 35167,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Cartoon"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/master/AllMovieLandProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-daac90a29e739aef028f08122ecf7f33f24a7cad7e8b769b3de26a98c6c02d52",
+        "jarFileSize": 152675,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AllMovieLandProvider.jar",
+        "jarHash": "sha256-d4aab7dadde2291deff1250d66a97a064244f36cf9562744f670255b7117bf4f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AllWish.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "AllWish",
+        "internalName": "AllWish",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime from all-wish.me",
+        "fileSize": 41708,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "All"
+        ],
+        "iconUrl": "https://all-wish.me/assets/logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-f874ccb343744b69e59a6f5e2d9aee78bc9c6f23ef62836fadb3db4f01e0fe26",
+        "jarFileSize": 148610,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AllWish.jar",
+        "jarHash": "sha256-d31cd35e142b55567235e3c4563b673622b3d5316e9e29236849f2474bba3cb4"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Anichi.cs3",
+        "status": 1,
+        "version": 13,
+        "name": "Anichi",
+        "internalName": "Anichi",
+        "authors": [
+            "Hexated,Phisher98"
+        ],
+        "fileSize": 86663,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/Allanime.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-2806bee111d0cb23a990af2458e1a647e8ff7674541f986df0917400872c4d4d",
+        "jarFileSize": 473142,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Anichi.jar",
+        "jarHash": "sha256-a0f645be539c2e316740a2381b40fcc07e3d9fa6c0a3185e5ccaad59acec4c37"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animeav1.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "Animeav1",
+        "internalName": "Animeav1",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "(Mexican) Anime Extension",
+        "fileSize": 18746,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "mx",
+        "tvTypes": [
+            "Movie",
+            "Anime",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/animeav1.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-a6fbef3293b9d4a8f7baf17feddf53dd008da1a221eebb7c050093792d478da1"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AnimeCloud.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "AnimeCloud",
+        "internalName": "AnimeCloud",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "German (Lang) Anime",
+        "fileSize": 35128,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "de",
+        "tvTypes": [
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/AnimeCloud.jpg",
+        "apiVersion": 1,
+        "fileHash": "sha256-b6a6b8cf7eb953bd6136a8bf32cda83272627ab8f8441228359d0933eee57c5b",
+        "jarFileSize": 157619,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AnimeCloud.jar",
+        "jarHash": "sha256-168e7fe6c2b6fd37f01a2a157f0a6235a0e33a4f47cbb227c8b9ed8aecea5e6c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AnimeDekhoProvider.cs3",
+        "status": 1,
+        "version": 61,
+        "name": "AnimeDekhoProvider",
+        "internalName": "AnimeDekhoProvider",
+        "authors": [
+            "Hindi Provider"
+        ],
+        "description": "Includes AnimeDekho,OnePace(DUB,SUB) and HindiSubAnime",
+        "fileSize": 49789,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://animedekho.app/wp-content/uploads/2023/07/AnimeDekho-Logo-300x-1.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-44c6d870c8fc94dcf0d1e9cfd6d3fa077180d161e09de8f0f0a68731ed137618",
+        "jarFileSize": 236839,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AnimeDekhoProvider.jar",
+        "jarHash": "sha256-a5161a9d89a7ff028eaf2c05b1669d1e2dd51e51482eb7226bbae375c7e61da6"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animedubhindi.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Animedubhindi",
+        "internalName": "Animedubhindi",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime in Multi Lang",
+        "fileSize": 44259,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animedubhindi.me&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-fccec45192a5febf9596067f8706909ff7f396658a3487eb74758617866dbef4"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AnimeKai.cs3",
+        "status": 1,
+        "version": 67,
+        "name": "AnimeKai",
+        "internalName": "AnimeKai",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Animes & Animes Movie",
+        "fileSize": 56965,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Anime",
+            "OVA",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animekai.to&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-fc3df47e9a0148efb074026d597f90c6f7d2271ddceb5c8d332b00488132c53f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animekhor.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "Animekhor",
+        "internalName": "Animekhor",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime and Movies includes (Donghuaword)",
+        "fileSize": 24225,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "zh",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animekhor.org&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-386b4dd791137ec0f11794b6485dd639b2ed2ae8e84ee76f4828b0f62ff46820",
+        "jarFileSize": 96356,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animekhor.jar",
+        "jarHash": "sha256-9d06b023e5432a11b3fa5f6120db2316a4399f0567b63edd02e67b80682c7b93"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animenosub.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "Animenosub",
+        "internalName": "Animenosub",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime and Movies",
+        "fileSize": 18326,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animenosub.to&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-f3265ff1a786758eff7b66b46830c20bd62db0e9e09c34bd32d1043195ca72d7",
+        "jarFileSize": 79081,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animenosub.jar",
+        "jarHash": "sha256-7f265aba611c1a1cd1725908a1d5b0d74bd66d0c18c51491dbe404d9aff4792b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/AnimePahe.cs3",
+        "status": 1,
+        "version": 20,
+        "name": "AnimePahe",
+        "internalName": "AnimePahe",
+        "authors": [
+            "Cloudburst,Lorem Ipsum,Phisher98"
+        ],
+        "description": "Animes (SUB/DUB)",
+        "fileSize": 56230,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/animepahe.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-4ca56645afb5e7fe2b155082efa7118856ea185c63e540202d013f9acc5df3eb"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animesalt.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "Animesalt",
+        "internalName": "Animesalt",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime/Cartoon in Hindi",
+        "fileSize": 35363,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animesalt.ac&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-3c20a3499f415abf18a31027fd2f482072ba93ba497aa3025e16c3de04b76244",
+        "jarFileSize": 127598,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animesalt.jar",
+        "jarHash": "sha256-ab5b87d170e91568e2d9601eb100c18f82d13f5af68f11094def202ab7a6b1cd"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animexin.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "Animexin",
+        "internalName": "Animexin",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime and Movies",
+        "fileSize": 14859,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=animexin.dev&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-c68da547beab1a216246bad833572ae414d60eb35b0843ac87c7539fb026b60c",
+        "jarFileSize": 56754,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Animexin.jar",
+        "jarHash": "sha256-67dcc4aac963ac22dbeec9f25b04ebc706e5d7a52aab87c20a3b40173c0a99dc"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Aniworld.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "Aniworld",
+        "internalName": "Aniworld",
+        "authors": [
+            "Phisher98,Hexated"
+        ],
+        "description": "Include: Serienstream",
+        "fileSize": 51908,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "de",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=aniworld.to&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-1b68d5cee9399b175f0d2dcd9c217076ec3f8c3aa6f9dc2b8c996bbe7b636953"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/BanglaPlex.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "BanglaPlex",
+        "internalName": "BanglaPlex",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "BanglaPlex",
+        "fileSize": 21306,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "bn",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=banglaplex.click&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-bcd02e289deec573f52c54b3577105b035e70c63170da5b42665964a77a1ea47",
+        "jarFileSize": 90271,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/BanglaPlex.jar",
+        "jarHash": "sha256-f86963daa22197f3a893d0595d18b3c94b3c286d2d33843dabcac20c98921f12"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Cinemacity.cs3",
+        "status": 1,
+        "version": 8,
+        "name": "Cinemacity",
+        "internalName": "Cinemacity",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Watch Movies & TvSeries (Multi-Lang/Audio)",
+        "fileSize": 45446,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=cinemacity.cc&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-dc44ad88c54c8beb9bc1d30678efa8d589b4eef348a3f8df8ad3911c4c2e146e"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Coflix.cs3",
+        "status": 1,
+        "version": 13,
+        "name": "Coflix",
+        "internalName": "Coflix",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies,Series and Anime French Extension ",
+        "fileSize": 29188,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "fr",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/Coflix.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-25648f38702fb6f1e1dbc1c0746321e767b49f1acc8183f386e155993fb648fc",
+        "jarFileSize": 125944,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Coflix.jar",
+        "jarHash": "sha256-a3ceb99826961b0df94eb4300b66124ddde77645f1336ba225d67db10df99ec6"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Desicinemas.cs3",
+        "status": 1,
+        "version": 12,
+        "name": "Desicinemas",
+        "internalName": "Desicinemas",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Contains BollyZone",
+        "fileSize": 39670,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://desicinemas.to&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-fc9d990f5272e6716e2222712ed4c5ffd301f4883c54cb385214f1a0504f73b9",
+        "jarFileSize": 194850,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Desicinemas.jar",
+        "jarHash": "sha256-a11faff75a083051c6f4a4c2a543885d5329c2f69f6d8ab24667fe19b513242f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Donghuastream.cs3",
+        "status": 1,
+        "version": 16,
+        "name": "Donghuastream",
+        "internalName": "Donghuastream",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Contains SeaTV (Chinese)",
+        "fileSize": 38408,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "zh",
+        "tvTypes": [
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/927f9c68fd64ce52f6212ae633d0f0585eca3545/src/en/donghuastream/res/mipmap-xxxhdpi/ic_launcher.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-8a0f1474e9acc5dfe1fa90a1c27508181b449fd859d0f73ed17e01b4bbeb2a17",
+        "jarFileSize": 187693,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Donghuastream.jar",
+        "jarHash": "sha256-b42612e0f314204b6cc22bb2804b08a35fec9399d9a7aa76a18bbf5b2016a522"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/DoraBash.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "DoraBash",
+        "internalName": "DoraBash",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Doremon Show in Hindi",
+        "fileSize": 22436,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=dorabash.in&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-e53c90b40111c6ea7d998d5f65db7337347fefa8119923c650b244576bd73fbc"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/DudeFilms.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "DudeFilms",
+        "internalName": "DudeFilms",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Watch Movies & TvSeries (Multi-Lang)",
+        "fileSize": 68608,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/dudefilms.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-4127bb60988c0a169f7e1bd65d517bda657e9843d44bcaebfedd125c33850c81"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Fibwatch.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "Fibwatch",
+        "internalName": "Fibwatch",
+        "authors": [
+            "Phisher98"
+        ],
+        "fileSize": 39914,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://f.pondit.xyz/fibwatch-logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-3fa283adc305c2c42718ed295fa43e4a3230650cdb0763106dc71f10f15d9bfd"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Fivemovierulz.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "Fivemovierulz",
+        "internalName": "Fivemovierulz",
+        "authors": [
+            "darkdemon",
+            "Dilip"
+        ],
+        "description": "Movies & Series",
+        "fileSize": 11675,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://i.ibb.co/SwQRhsn/20241016-074942.jpg",
+        "apiVersion": 1,
+        "fileHash": "sha256-c2c6c2c1ed7516018c0c941ab8da660c3f48351c453377f46714597e68bad6bb",
+        "jarFileSize": 39705,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Fivemovierulz.jar",
+        "jarHash": "sha256-fc8257bad3055327519ce4befae5721c4a7400bbe5a22ad5674feb021a4b486e"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/FourKHDHub.cs3",
+        "status": 1,
+        "version": 31,
+        "name": "FourKHDHub",
+        "internalName": "FourKHDHub",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "4K Movies Extension by HDHUB4U",
+        "fileSize": 66627,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/4KHDHUB-Bright-Logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-2c10851f404e3106874768ca6ca99fe2f369650476470d15f7e20501baa494d3"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Goojara.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Goojara",
+        "internalName": "Goojara",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies and Series (Mostly 720p)",
+        "fileSize": 43648,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=goojara.to/&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-1031fbecfa94599b6b0365a73ea1e09ea964aa006c25a7d93fed867cd09f070a",
+        "jarFileSize": 165973,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Goojara.jar",
+        "jarHash": "sha256-3ca2e5cb044fe6abd83cdd012b775f5888de781ec328fd3e01feaf047cfe8d35"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/HDhub4u.cs3",
+        "status": 1,
+        "version": 45,
+        "name": "HDhub4u",
+        "internalName": "HDhub4u",
+        "authors": [
+            "Phisher98"
+        ],
+        "fileSize": 79846,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/HDHUB.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-35409ab33bcdd907abd2e5e27d18bd0d1a7c929a4bf816e79d8b4ed2851b3451"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Hindmoviez.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "Hindmoviez",
+        "internalName": "Hindmoviez",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Watch Movies & TvSeries (Multi-Lang)",
+        "fileSize": 52461,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/hindmoviez.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-15266dce16a9365136866bcb89b7bcf71284279d5346a89e58b0603749485e0e"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/IdlixProvider.cs3",
+        "status": 1,
+        "version": 10,
+        "name": "IdlixProvider",
+        "internalName": "IdlixProvider",
+        "authors": [
+            "Phisher98"
+        ],
+        "fileSize": 52867,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "id",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime",
+            "AsianDrama"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/idlix.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-53b7d4fcfc1c8955264ee1d0e6704c3a7432b7aa32ec9f042357fb7dda2ebf81"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/IPTVPlayer.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "IPTVPlayer",
+        "internalName": "IPTVPlayer",
+        "authors": [
+            "Phisher98,Adippe"
+        ],
+        "description": "IPTV Player",
+        "fileSize": 18382,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/IPTV.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-bd01807e039e86004278cdd21b88940bf668d493d7b41688ffbea152337ee4f4",
+        "jarFileSize": 74806,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/IPTVPlayer.jar",
+        "jarHash": "sha256-fc5209a59ad22cb01362deb89645bb2f2a99dd3499e6b82cd72e0b8e59069eee"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/IStreamFlare.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "IStreamFlare",
+        "internalName": "IStreamFlare",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies/Series/Anime",
+        "fileSize": 41615,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie",
+            "Cartoon",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/streamflare.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-cae2de8851f24bc1bf3b26b72cc817275fbb1083ee1d4b7315d8b886814b651b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Jellyfin.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "Jellyfin",
+        "internalName": "Jellyfin",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media",
+        "fileSize": 61815,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie",
+            "Cartoon",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/jellyfin.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-3289827ef43d6cd568e95f39a5ab5e1aea1820a5da0f0a8b570dbd86a11a661f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/KayiFamilyTv.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "KayiFamilyTv",
+        "internalName": "KayiFamilyTv",
+        "authors": [
+            "KaifTaufiq"
+        ],
+        "description": "KayiFamilyTv has Turkish Drama and Documentaries with English / Spanish Subtitles.",
+        "fileSize": 30078,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Documentary"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/master/KayiFamilyTv/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-8ce3e4738fa235bae286e31caf392ace6bab388cb89e9bd534b3f4c5365a6fcd"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Kickassanime.cs3",
+        "status": 1,
+        "version": 21,
+        "name": "Kickassanime",
+        "internalName": "Kickassanime",
+        "authors": [
+            "Phisher98,Hexated"
+        ],
+        "fileSize": 51422,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/KAA.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-60b9f984565c990b673dba83699773f1572455d1a4373e97ec06e11caf3b926a",
+        "jarFileSize": 236937,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Kickassanime.jar",
+        "jarHash": "sha256-af081fe01a027d6d1fa56c83cead6c4cca4d936b493b00a2497be376a38814dc"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/KisskhProvider.cs3",
+        "status": 1,
+        "version": 18,
+        "name": "KisskhProvider",
+        "internalName": "KisskhProvider",
+        "authors": [
+            "Phisher98,Hexated,Peerless"
+        ],
+        "fileSize": 38151,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kisskh.co&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-e808c249ed2b48b50153c061f9c70f5176fdda55db4130c0d65c382201f5419f",
+        "jarFileSize": 151310,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/KisskhProvider.jar",
+        "jarHash": "sha256-db3762ba00eb202dead9ae2b1bcb8e244b5b14f60808f86db37a4f267e55cff1"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Latanime.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Latanime",
+        "internalName": "Latanime",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "(Mexican) Anime Extension",
+        "fileSize": 14002,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "mx",
+        "tvTypes": [
+            "Movie",
+            "Anime",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://latanime.org/public/img/logito.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-5e6b1ec485c12e7f653e739fb8cbb3fa3423b49c7ba7ea633cece360c8a5220d"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/LayarKacaProvider.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "LayarKacaProvider",
+        "internalName": "LayarKacaProvider",
+        "authors": [
+            "Hexated,Phisher98"
+        ],
+        "fileSize": 20776,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tv7.lk21.am.in&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-c16f6ce83a7a77ee6f7dda520fb4dc855c6737219e69bfcf5e3a2d795996179a",
+        "jarFileSize": 84028,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/LayarKacaProvider.jar",
+        "jarHash": "sha256-b3fb3348563bf86c55b71b02029e1d0e7f99e48dd196ad23404fcd95b7f1c16b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MassTamilanProvider.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "MassTamilanProvider",
+        "internalName": "MassTamilanProvider",
+        "authors": [
+            "Phisher98,LikDev-256"
+        ],
+        "description": "Indian Multi-language Music Provider",
+        "fileSize": 15905,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "ta",
+        "tvTypes": [
+            "Music",
+            "Movie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/master/MassTamilanProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-29349462a7f00292c2e94b3c458eb02bcac7894f64847967ccd2e82025831679",
+        "jarFileSize": 55059,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MassTamilanProvider.jar",
+        "jarHash": "sha256-602b8ec207168a79b4bbeecfe141ca683ceddaf9cb1a15dcb4b2ab9d572249cd"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Megakino.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Megakino",
+        "internalName": "Megakino",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies,Series and Anime German Extension ",
+        "fileSize": 18130,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "de",
+        "tvTypes": [
+            "Movie,Anime,Cartoon"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/Megakino.jpg",
+        "apiVersion": 1,
+        "fileHash": "sha256-b316dac22facb6298c38ea9767d6a572f3e7435d409f31712069b7ee4979f940",
+        "jarFileSize": 69323,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Megakino.jar",
+        "jarHash": "sha256-d2095f5059f8a6f63029598dd5b9a1a690224146902ff53a16f3bee998926e8c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Miruro.cs3",
+        "status": 3,
+        "version": -1,
+        "name": "Miruro",
+        "internalName": "Miruro",
+        "authors": [
+            "Phisher98"
+        ],
+        "fileSize": 22633,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "apiVersion": 1,
+        "fileHash": "sha256-7d415124831042b9aba2dd0f255cd0ebd314be18e55ecf071f336dba227b3464"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MoonTV.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "MoonTV",
+        "internalName": "MoonTV",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies & TV Series Etc\nSettings allow selecting domains such as 123cine,Flixzone etc",
+        "fileSize": 65317,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie",
+            "Cartoon",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=moontv.to/&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-b58c04c6b70675d1586352ce0aaef6d4161d4a2c8d0983b1e17500d1b31ee4e2"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MovieBlast.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "MovieBlast",
+        "internalName": "MovieBlast",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "MovieBlast App",
+        "fileSize": 31098,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "te",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/movieblast.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-52bd363ec6460300969662ee36202c13e0ba900bbc2778aeadcfcea94f3a7e3f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MovieBoxProvider.cs3",
+        "status": 1,
+        "version": 18,
+        "name": "MovieBoxProvider",
+        "internalName": "MovieBoxProvider",
+        "authors": [
+            "NivinCNC,Phisher98"
+        ],
+        "description": "Multi Language Movies and Series Provider",
+        "fileSize": 68756,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/raw/refs/heads/master/MovieBoxProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-e438ca1daafc24bc11ebcca57a6507d2a31cd5aa4be14d00214c9d1aba1dfa8f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Movierulzhd.cs3",
+        "status": 1,
+        "version": 153,
+        "name": "Movierulzhd",
+        "internalName": "Movierulzhd",
+        "authors": [
+            "Phisher98,hexated"
+        ],
+        "description": "Includes: Hdmovie2,hdmovie6",
+        "fileSize": 58579,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/master/Movierulzhd/faviconV2.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-72425d516047e6090287f856f54ff6c6ffeb726e812a0da3c8d002d37b70f715",
+        "jarFileSize": 292059,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Movierulzhd.jar",
+        "jarHash": "sha256-8c16db964ef9b1b27f8a4cfb640bbddb363ba78e9fbcfdb558a1139cc778c90f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Movies4u.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "Movies4u",
+        "internalName": "Movies4u",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies4u",
+        "fileSize": 68914,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/movies4u.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-cf5e44037a994c56f028371e5715becac45adf2fa36ce16a5d62124a8be93a7d",
+        "jarFileSize": 301157,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Movies4u.jar",
+        "jarHash": "sha256-426ca87e14ff374553bf9ff65f8cca5d0fde05ad85ce18ff29607d42ec124372"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MPlayerProvider.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "MPlayerProvider",
+        "internalName": "MPlayerProvider",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Indian Movies/Series/Kdrama(Hindi Dubbed)",
+        "fileSize": 92975,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.mxplayer.in&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-3273eb1d7f13a2594cbd2f3a4ea2122b4977987388c2bafad1effc4ee677d06f",
+        "jarFileSize": 496035,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MPlayerProvider.jar",
+        "jarHash": "sha256-a560c91e40fb11149e1bd44db4c59195c2c11e092ecd99357f6c10dbbc8b14b0"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MultiMoviesProvider.cs3",
+        "status": 1,
+        "version": 48,
+        "name": "MultiMoviesProvider",
+        "internalName": "MultiMoviesProvider",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Indian Multi-language HD Provider",
+        "fileSize": 46856,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/master/MultiMoviesProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-3fe8ed2499d962f50c6be5ce6e579b166cc0e9ee197d5b5f2ea224b72533e44c",
+        "jarFileSize": 198348,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/MultiMoviesProvider.jar",
+        "jarHash": "sha256-a9d707523204e8ff7ab231d770d852faf29bbde0031e32cd6f7c12ef05171bea"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Netcinez.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Netcinez",
+        "internalName": "Netcinez",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies,Series and Anime Portuguese Extension ",
+        "fileSize": 15855,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "pt-br",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://cdn.bcdn.zip/wp-content/uploads/2017/04/nc-header-responsive.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-d39d8c26b22cf78ea18a39d3bd028600a62fec7fb7235047ee8853b7addf45a7",
+        "jarFileSize": 53661,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Netcinez.jar",
+        "jarHash": "sha256-315cc1e3ba085641c488b612e2f65d40a804d6d14a990b89e0d183123175e305"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/NOXXProvider.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "NOXXProvider",
+        "internalName": "NOXXProvider",
+        "authors": [
+            "LikDev-256,Phisher98"
+        ],
+        "description": "HD TV Shows (Not all links are working because of a unsolvable issue)",
+        "fileSize": 14823,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=noxx.to&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-d6d1946eed1de646a89e9dce81df87e89fcbd1a517ecbeebc3dda35cc4cf126c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/OHLI24.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "OHLI24",
+        "internalName": "OHLI24",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime and movies with Korean subtitles only (no Korean audio)",
+        "fileSize": 19191,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "ko",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://ani.ohli24.com/img/logo@2x.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-340e1d93884c74980e8c5040452997886c1ef26417504b33bda6641b3f9e4b0c"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/OnePace.cs3",
+        "status": 1,
+        "version": 17,
+        "name": "OnePace",
+        "internalName": "OnePace",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "One Pace",
+        "fileSize": 34047,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/onepace.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-8439248269aae2ee525cf881053acc29f5ccf6b2fc704c27181f767bea0f0ead",
+        "jarFileSize": 145569,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/OnePace.jar",
+        "jarHash": "sha256-435a10fee7561b504db67eb85082ccbfd8a93436f62f5b243599f007a9e257b6"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/OneTouchTV.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "OneTouchTV",
+        "internalName": "OneTouchTV",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Asian Dramas",
+        "fileSize": 37128,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=onetouchtv.xyz/&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-a3bc265ad643101ce2f71099cee4cd83994567cb1c34fa5b77b55a6d0db761d8",
+        "jarFileSize": 166470,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/OneTouchTV.jar",
+        "jarHash": "sha256-edf248352e04d740d77d9110cb1cb65699057675c95ed503f996ba2fb38d9982"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Pelisplushd.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Pelisplushd",
+        "internalName": "Pelisplushd",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "(Mexican) Movies/Series/Anime Extension",
+        "fileSize": 55054,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "mx",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=pelisplushd.bz&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-bbdfbda818b19e609bdaa2ea97657c731ed50184ef3418734eb75943b1b706ab"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Pencurimovie.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "Pencurimovie",
+        "internalName": "Pencurimovie",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Pencurimovie ",
+        "fileSize": 13692,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ww03.pencurimovie.bond&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-415a9f3648415d78e587b13cf7eceed8b2f4c22822117faaaac073d26071f8ef",
+        "jarFileSize": 49831,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Pencurimovie.jar",
+        "jarHash": "sha256-8ea5cfe2c8dc4566388631babdda2fb226adccc5b3284f81494129ac50f0dd82"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Pinoymoviepedia.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Pinoymoviepedia",
+        "internalName": "Pinoymoviepedia",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Contains Bluray7",
+        "fileSize": 20404,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "fil",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://pinoymoviepedia.ru&size=16",
+        "apiVersion": 1,
+        "fileHash": "sha256-d7f00b93456f2c25816006bc01cc01192938ea8f4f6e861d92147cd2f8184fa7",
+        "jarFileSize": 88415,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Pinoymoviepedia.jar",
+        "jarHash": "sha256-7d9342056cada63fa750d35c7a92b02f715af65e453df6ceb3182b7a1c9bbaf0"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Piratexplay.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Piratexplay",
+        "internalName": "Piratexplay",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Anime/Cartoon in Hindi",
+        "fileSize": 34247,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=piratexplay.cc&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-0f58474ac1de5f5e21442775d97aae335c6b4bd6ab1a60a62f3590a844327980",
+        "jarFileSize": 129328,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Piratexplay.jar",
+        "jarHash": "sha256-0ac28678cb39e7a1c02c9cf53567c906f13b3f68e935ffde69ac1cc094abefbf"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Pmsm.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Pmsm",
+        "internalName": "Pmsm",
+        "authors": [
+            "Phisher98,Duro92"
+        ],
+        "description": "PMSM (Pencuri Movie Sub Malay)",
+        "fileSize": 23539,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://ww192.pencurimoviesubmalay.motorcycles&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-da1751ada53168261d6070a83e76616c5ee6015bfb6fafe7b7c924efb555f360"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/PublicSportsIPTV.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "PublicSportsIPTV",
+        "internalName": "PublicSportsIPTV",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Sports Live Streams (FanCode)",
+        "fileSize": 22465,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "https://www.thestatesman.com/wp-content/uploads/2021/05/fancode.jpg",
+        "apiVersion": 1,
+        "fileHash": "sha256-1dca6b91ad07b86f4f0b93b064a8a638a55933099159888c7d5ff82547843218",
+        "jarFileSize": 94639,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/PublicSportsIPTV.jar",
+        "jarHash": "sha256-2387a4bb318f48e8140f09e6ef2ab8a65b89fcdbb89627993f78e3d0de21917d"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/QuickIPTV.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "QuickIPTV",
+        "internalName": "QuickIPTV",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Includes PirateIPTV,Sports IPTV,Japanese IPTV,Sony IPTV",
+        "fileSize": 22130,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-eb39f638b7a9fe49578806acd26a99eb6c61ff1d90453d81feffc747d5e6bdd6",
+        "jarFileSize": 147367,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/QuickIPTV.jar",
+        "jarHash": "sha256-ec670f2de5dcf2f4301d5e21919b4e79c82c4b310c22862febceb530bd9bd128"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/RingZ.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "RingZ",
+        "internalName": "RingZ",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Ringz App",
+        "fileSize": 28989,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://rzflix.com/logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-98a97a10cc1cb106d882b1d2ac1efe698c1ac4f8ff5e2085cd2ae574b12021d8"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/ShowBox.cs3",
+        "status": 1,
+        "version": 5,
+        "name": "ShowBox",
+        "internalName": "ShowBox",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "ShowBox (Retrieve the cookie using Login with Google to properly utilize ShowBox.",
+        "fileSize": 113461,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "Anime",
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://miro.medium.com/v2/1*DyU8bmnyyEiJbFROEXO2VA.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-6d7250bf5988745bf36aecc6cc5d6fa1fdefd01ef0d486c2e37dc123606d1452"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/ShowFlixProvider.cs3",
+        "status": 1,
+        "version": 11,
+        "name": "ShowFlixProvider",
+        "internalName": "ShowFlixProvider",
+        "authors": [
+            "LikDev-256,Phisher98"
+        ],
+        "description": "HD Provider for all Indian Languages",
+        "fileSize": 71606,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/master/ShowFlixProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-7f70772765ac01f8e0e04ebc69ebf500ff58d502773e44d5fa58a8e47f1cba01",
+        "jarFileSize": 351733,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/ShowFlixProvider.jar",
+        "jarHash": "sha256-8febd770e6612f96dabc704bbaca12aa92d9a1b3583a0fa2ba1df043384aaafa"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/StreamPlay.cs3",
+        "status": 1,
+        "version": 629,
+        "name": "StreamPlay",
+        "internalName": "StreamPlay",
+        "authors": [
+            "Phisher98",
+            "Hexated"
+        ],
+        "description": "#1 best extention based on MultiAPI",
+        "fileSize": 936043,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie",
+            "Cartoon",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://i3.wp.com/yt3.googleusercontent.com/ytc/AIdro_nCBArSmvOc6o-k2hTYpLtQMPrKqGtAw_nC20rxm70akA=s900-c-k-c0x00ffffff-no-rj?ssl=1",
+        "apiVersion": 1,
+        "fileHash": "sha256-db8479baa6c4dbab3902bd95a3e349bf63ca8084b60f39360ca20ed0d038e752"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/StremioAddon.cs3",
+        "status": 1,
+        "version": 11,
+        "name": "StremioAddon",
+        "internalName": "StremioAddon",
+        "authors": [
+            "Hexated,phisher98,erynith"
+        ],
+        "description": "[!] Requires Setup \n- Allows you to use any Stremio addon by pasting their manifest.json url",
+        "fileSize": 74222,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Torrent"
+        ],
+        "iconUrl": "https://files.catbox.moe/ol63rm.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-46727b01a4c9d0efcd8e9a3324b4544082db6f0e9d8ddf9f3060d7b1c40f2b91"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/StremioX.cs3",
+        "status": 1,
+        "version": 22,
+        "name": "StremioX",
+        "internalName": "StremioX",
+        "authors": [
+            "Hexated,phisher98"
+        ],
+        "description": "[!] Requires Setup \n- StremioX allows you to use stream addons \n- StremioC allows you to use catalog addons",
+        "fileSize": 169815,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/hexated/cloudstream-extensions-hexated/master/StremioX/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-1a243e1c74748ee5c135209efa178f4ad7ae245d03fa2315a5b1470bfe183d9a"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/SuperStream.cs3",
+        "status": 1,
+        "version": 33,
+        "name": "SuperStream",
+        "internalName": "SuperStream",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "SuperStream (Retrieve the cookie using Login with Google to properly utilize SuperStream.",
+        "fileSize": 128346,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie",
+            "Cartoon",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.showbox.media/&size=256",
+        "apiVersion": 1,
+        "fileHash": "sha256-3e9fd7d617d2a0810373cf5a663bc784918bc457c5ea5eeb6d60370a3e449b03"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Tamilblasters.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "Tamilblasters",
+        "internalName": "Tamilblasters",
+        "authors": [
+            "rockhero1234,phisher98"
+        ],
+        "description": "Movies & Series",
+        "fileSize": 19385,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "ta",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://i.postimg.cc/FRwFFtyT/logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-62cddfc3360ce1bf2259699d8f0a8451ce59d44421cce491d979037f5e869a18"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Tamilian.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Tamilian",
+        "internalName": "Tamilian",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies (Tamil)",
+        "fileSize": 14341,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "ta",
+        "tvTypes": [
+            "Movies"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tamilian.io&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-c44c3a7ed057285f7a07f90eba3c90028179a9a6a777305a78f424316c20b6d7"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/TokusatsuUltimate.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "TokusatsuUltimate",
+        "internalName": "TokusatsuUltimate",
+        "authors": [
+            "Phisher98,YoureMotherHelped-Love-Mom"
+        ],
+        "description": "Stream tokusatsu content including Kamen Rider, Super Sentai, Metal Heroes, and other Japanese special effect series with English subs",
+        "fileSize": 27352,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/master/TokusatsuUltimate/TokusatsuUltimateIcon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-652fad4a9580f390ec1b683cce7f9a53826dec3923eca9340c7dc5c2d1aee97e"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/TokuZilla.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "TokuZilla",
+        "internalName": "TokuZilla",
+        "authors": [
+            "KaifTaufiq,Phisher98"
+        ],
+        "description": "Stream tokusatsu content including Power Ranger, Kamen Rider, Super Sentai, Metal Heroes, and other Japanese special effect series with English subs",
+        "fileSize": 18445,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/cloudstream-extensions-phisher/refs/heads/master/TokuZilla/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-103cdef7458630851c8700b6aad73cb44c4cd698df197f7552f3f4f17d6c95ec"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/ToonHub.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "ToonHub",
+        "internalName": "ToonHub",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "ToonHub4u Multi Language",
+        "fileSize": 22725,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://toonhub4u.me/wp-content/uploads/2024/02/Untitled.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-e90f8e6e069a309032fda55a4205f0deb8ce2608238625f0e6252e567729c23c",
+        "jarFileSize": 87980,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/ToonHub.jar",
+        "jarHash": "sha256-ea8bda0b0973f1e1a6214eb9079cade9cc44c37b8bbd9ff85b6759d829663472"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Toonstream.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "Toonstream",
+        "internalName": "Toonstream",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "ToonStream Multi Language",
+        "fileSize": 29133,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/toonstream.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-c16d984a5e38cdb485be9b933751771235a65d25163bca5cb72fa3f069f8811e",
+        "jarFileSize": 113115,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Toonstream.jar",
+        "jarHash": "sha256-9f6c334538ff681ef4e3bb0177436e3eac36d8e9d8abfd0f744412414271ba7f"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/ToonTales.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "ToonTales",
+        "internalName": "ToonTales",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "ToonTales",
+        "fileSize": 9981,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.toontales.net/wp-content/themes/toontales/images/logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-0fccf833bce708847bcc5024c8ffee3b8e1a2a19308678533c5392dde4a86bcf",
+        "jarFileSize": 33742,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/ToonTales.jar",
+        "jarHash": "sha256-d904b863eaa871b3f292d1d9e6a2c616b3d0b31f5642f5198e04ad9583229b1b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Topcartoons.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "Topcartoons",
+        "internalName": "Topcartoons",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Top Cartoon",
+        "fileSize": 10107,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "hi",
+        "tvTypes": [
+            "Cartoon"
+        ],
+        "iconUrl": "https://www.topcartoons.tv/wp-content/uploads/logo.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-3d902629a259a8317e513d2dfb50901c0d0a68ebe4252d30d8c025bf01ee53c3",
+        "jarFileSize": 34714,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Topcartoons.jar",
+        "jarHash": "sha256-acfade3b48bc0309fe126b8a19f2e1cbdfa0c179f944853a322be0c9927027b8"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Topstreamfilm.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "Topstreamfilm",
+        "internalName": "Topstreamfilm",
+        "authors": [
+            "Phisher"
+        ],
+        "description": "Filme  and Serien (German)",
+        "fileSize": 17620,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "de",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://www.topstreamfilm.live/templates/topstreamfilm/images/logo-1.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-3f29431563b6e39a4f23baf3b1ce7a89248f4350e25feb3541e80c6cb0f6efe7",
+        "jarFileSize": 72077,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Topstreamfilm.jar",
+        "jarHash": "sha256-c7f213f6b566d60292de9fbbccf693b48cfb3d7f0f979a20f150564d8e8412dd"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/TorraStream.cs3",
+        "status": 1,
+        "version": 79,
+        "name": "TorraStream",
+        "internalName": "TorraStream",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "#1 Best Extension \u2013 MultiAPI-Based with 4K Torrent Support (Debian) Use Extension Settings",
+        "fileSize": 192666,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "Torrent",
+            "AsianDrama",
+            "TvSeries",
+            "Anime"
+        ],
+        "iconUrl": "https://torrentio.strem.fun/images/logo_v1.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-6ec115bf14ad477951503217b661c2dfa96bfd369c177172337d9bb4fbfb24e2"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/UHDmoviesProvider.cs3",
+        "status": 1,
+        "version": 34,
+        "name": "UHDmoviesProvider",
+        "internalName": "UHDmoviesProvider",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Indian Multi-language 4K Provider",
+        "fileSize": 50953,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/LikDev-256/likdev256-tamil-providers/master/UHDmoviesProvider/icon.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-a51d234f2292b095403e6b7a06419150979c80e1ac28622f8c1e6c07642c013a"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Ultima.cs3",
+        "status": 2,
+        "version": 34,
+        "name": "Ultima",
+        "internalName": "Ultima",
+        "authors": [
+            "RowdyRushya,Phisher98"
+        ],
+        "description": "The ultimate All-in-One home screen to access all of your extensions at one place (You need to select/deselect sections in Ultima's settings to load other extensions on home screen)",
+        "fileSize": 354264,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "All"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/Ultima.jpg",
+        "apiVersion": 1,
+        "fileHash": "sha256-0170fbe7c9e5fd4ebb480ac326f566a672b106f6b01232abce13b9db7ffc3311"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/UltimaBeta.cs3",
+        "status": 2,
+        "version": 16,
+        "name": "UltimaBeta",
+        "internalName": "UltimaBeta",
+        "authors": [
+            "RowdyRushya,Phisher98"
+        ],
+        "description": "(Beta)The ultimate All-in-One home screen to access all of your extensions at one place (You need to select/deselect sections in Ultima's settings to load other extensions on home screen)",
+        "fileSize": 364917,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "All"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/UltimaBeta.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-c43069b69a22ad75800ef66a3e99933694b9ccacb3b4e7725ca3f940c4ef8c3a"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Watch32.cs3",
+        "status": 1,
+        "version": 13,
+        "name": "Watch32",
+        "internalName": "Watch32",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Watch movies and series from Watch32",
+        "fileSize": 45545,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movies",
+            "TvSeries"
+        ],
+        "iconUrl": "https://img.watch32.sx/xxrz/400x400/100/a9/5e/a95e15a880a9df3c045f6a5224daf576/a95e15a880a9df3c045f6a5224daf576.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-50119b67c351a0008e3022c272d6677f17a51d2d88dce17b7a7796f621f7fd48"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/WatchMMAFull.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "WatchMMAFull",
+        "internalName": "WatchMMAFull",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "MMA Videos",
+        "fileSize": 18078,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Other",
+            "Live"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=watchmmafull.com/&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-9a2b55d9a0ab15c85ea288082af65525fcd37624d6e2e2464b5770733f45ad58",
+        "jarFileSize": 84139,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/WatchMMAFull.jar",
+        "jarHash": "sha256-17da3ed6ea29c44194fafccba8be3157cadf742f25dec7a85de2c7de81303a5b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/Yflix.cs3",
+        "status": 1,
+        "version": 13,
+        "name": "Yflix",
+        "internalName": "Yflix",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "Movies & TV Series Etc\nSettings allow selecting domains such as 1Movies,SolarMovie and Sflix",
+        "fileSize": 58833,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Anime",
+            "Movie",
+            "Cartoon",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=yflix.to/&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-aadb162f0e0065c05fcb2e8f3366c7dbf5c0067cd6a160e7792fbc6317434468"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/YTS.cs3",
+        "status": 1,
+        "version": 8,
+        "name": "YTS",
+        "internalName": "YTS",
+        "authors": [
+            "Phisher98"
+        ],
+        "description": "YTS Movies 4K Support (Torrent)",
+        "fileSize": 16345,
+        "repositoryUrl": "https://github.com/adityadeheriya0-code/Unknown-s-repo",
+        "language": "en",
+        "tvTypes": [
+            "Movie",
+            "Torrent"
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/phisher98/TVVVV/refs/heads/main/Icons/yts.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-5943c7a654b94edb4716966a1df4fa81c2eee27d0c606f83781f237ac6412250",
+        "jarFileSize": 75880,
+        "jarUrl": "https://raw.githubusercontent.com/adityadeheriya0-code/Unknown-s-repo/builds/YTS.jar",
+        "jarHash": "sha256-38e98b02325b86a4356a46004c73380e5d12069850387bc4ae93a37c6fa33045"
+    }
+]
