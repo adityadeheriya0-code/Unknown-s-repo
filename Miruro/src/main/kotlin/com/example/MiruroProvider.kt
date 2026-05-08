@@ -2,187 +2,160 @@ package com.example
 
 import com.lagradost.cloudstream3.*
 import com.lagradost.cloudstream3.utils.*
+import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 import java.util.EnumSet
 
-class MiruroProvider : MainAPI() {
-    override var mainUrl = "https://miruro.bz"
+@CloudstreamPlugin
+class MiruroV2Provider : MainAPI() {
+    override var mainUrl = "https://miruro.to"
     override var name = "Miruro"
     override val supportedTypes = setOf(TvType.Anime, TvType.AnimeMovie, TvType.OVA)
     override var lang = "en"
     override val hasMainPage = true
-    override val hasSearch = true
 
-    private val apiUrl = "https://api.miruro.su"
+    private val apiUrl = "https://miruro-api-jet.vercel.app"
 
-    // ─── Data Classes ──────────────────────────────────────────────────────────
+    data class Title(
+        val romaji: String? = null,
+        val english: String? = null,
+        val native: String? = null
+    )
 
-    data class TvInfo(
-        val showType: String? = null,
-        val duration: String? = null,
-        val sub: Int? = null,
-        val dub: Int? = null,
-        val eps: Int? = null
+    data class CoverImage(
+        val large: String? = null,
+        val medium: String? = null,
+        val color: String? = null
     )
 
     data class AnimeEntry(
-        val id: String,
-        val data_id: Int? = null,
-        val title: String,
-        val japanese_title: String? = null,
-        val poster: String? = null,
+        val id: Int,
+        val title: Title? = null,
+        val coverImage: CoverImage? = null,
+        val format: String? = null,
+        val status: String? = null,
+        val averageScore: Int? = null,
+        val genres: List<String>? = null,
         val description: String? = null,
-        val tvInfo: TvInfo? = null
+        val episodes: Int? = null,
+        val bannerImage: String? = null
     )
 
     data class SearchApiResponse(
-        val success: Boolean,
-        val results: List<AnimeEntry>
+        val page: Int? = null,
+        val perPage: Int? = null,
+        val total: Int? = null,
+        val hasNextPage: Boolean? = null,
+        val results: List<AnimeEntry>? = null
     )
 
-    data class AnimeInfoData(
+    data class EpisodeItem(
         val id: String,
-        val data_id: Int? = null,
-        val title: String,
-        val japanese_title: String? = null,
-        val poster: String? = null,
-        val showType: String? = null,
-        val animeInfo: Map<String, Any>? = null
-    )
-
-    data class AnimeInfoResponse(
-        val success: Boolean,
-        val results: AnimeInfoResults
-    )
-
-    data class AnimeInfoResults(
-        val data: AnimeInfoData
-    )
-
-    data class Episode(
-        val episode_no: Int,
-        val id: String,
-        val data_id: Int? = null,
+        val number: Int,
         val title: String? = null,
-        val jname: String? = null
+        val image: String? = null,
+        val filler: Boolean? = null
     )
 
-    data class EpisodeListResults(
-        val totalEpisodes: Int,
-        val episodes: List<Episode>
+    data class ProviderEpisodes(
+        val sub: List<EpisodeItem>? = null,
+        val dub: List<EpisodeItem>? = null
     )
 
-    data class EpisodeListResponse(
-        val success: Boolean,
-        val results: EpisodeListResults
+    data class Provider(
+        val episodes: ProviderEpisodes? = null
     )
 
-    data class StreamLink(
-        val file: String,
-        val type: String? = null
+    data class EpisodesResponse(
+        val providers: Map<String, Provider>? = null
     )
 
-    data class SubtitleTrack(
+    data class StreamItem(
+        val url: String,
+        val type: String? = null,
+        val quality: String? = null
+    )
+
+    data class SubtitleItem(
         val file: String,
         val label: String? = null,
-        val kind: String? = null,
-        val default: Boolean? = null
-    )
-
-    data class StreamingEntry(
-        val id: Int? = null,
-        val type: String? = null,
-        val link: StreamLink,
-        val tracks: List<SubtitleTrack>? = null,
-        val server: String? = null
-    )
-
-    data class StreamResults(
-        val streamingLink: List<StreamingEntry>,
-        val servers: List<Map<String, Any>>? = null
+        val kind: String? = null
     )
 
     data class StreamResponse(
-        val success: Boolean,
-        val results: StreamResults
+        val streams: List<StreamItem>? = null,
+        val subtitles: List<SubtitleItem>? = null
     )
 
-    // ─── Main Page ─────────────────────────────────────────────────────────────
-
     override val mainPage = mainPageOf(
-        "$apiUrl/api/most-popular" to "Most Popular",
-        "$apiUrl/api/top-airing" to "Top Airing",
-        "$apiUrl/api/recently-updated" to "Recently Updated",
-        "$apiUrl/api/recently-added" to "Recently Added",
-        "$apiUrl/api/movie" to "Movies"
+        "$apiUrl/trending" to "Trending",
+        "$apiUrl/popular" to "Popular",
+        "$apiUrl/recent" to "Recently Airing",
+        "$apiUrl/upcoming" to "Upcoming"
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
-        val url = "${request.data}?page=$page"
-        val res = app.get(url).parsed<CategoryResponse>()
-        val items = res.results.data.map { it.toSearchResponse() }
-        return newHomePageResponse(request.name, items)
+        val res = app.get("${request.data}?page=$page&per_page=20").parsed<SearchApiResponse>()
+        val items = res.results?.map { it.toSearchResponse() } ?: emptyList()
+        return newHomePageResponse(request.name, items, res.hasNextPage ?: false)
     }
-
-    data class CategoryResults(val data: List<AnimeEntry>, val totalPages: Int? = null)
-    data class CategoryResponse(val success: Boolean, val results: CategoryResults)
-
-    // ─── Search ────────────────────────────────────────────────────────────────
 
     override suspend fun search(query: String): List<SearchResponse> {
         val res = app.get(
-            "$apiUrl/api/search",
-            params = mapOf("keyword" to query)
+            "$apiUrl/search",
+            params = mapOf("query" to query, "page" to "1", "per_page" to "20")
         ).parsed<SearchApiResponse>()
-        return res.results.map { it.toSearchResponse() }
+        return res.results?.map { it.toSearchResponse() } ?: emptyList()
     }
 
-    // ─── Load (Anime Page + Episodes) ─────────────────────────────────────────
-
     override suspend fun load(url: String): LoadResponse {
-        val animeId = url
-            .removePrefix("$mainUrl/watch/")
-            .removePrefix("$mainUrl/")
-            .trim('/')
+        val anilistId = url.substringAfterLast("/")
+        val info = app.get("$apiUrl/info/$anilistId").parsed<AnimeEntry>()
+        val episodesRes = app.get("$apiUrl/episodes/$anilistId").parsed<EpisodesResponse>()
 
-        val infoRes = app.get(
-            "$apiUrl/api/info",
-            params = mapOf("id" to animeId)
-        ).parsed<AnimeInfoResponse>()
+        val preferredOrder = listOf("zoro", "arc", "kiwi")
+        val providers = episodesRes.providers ?: emptyMap()
+        val selectedProvider = preferredOrder.firstOrNull { providers.containsKey(it) }
+            ?: providers.keys.firstOrNull()
+        val providerData = selectedProvider?.let { providers[it] }
 
-        val info = infoRes.results.data
-        val animeInfo = info.animeInfo ?: emptyMap()
+        val subEpisodes = providerData?.episodes?.sub?.map { ep ->
+            newEpisode("$selectedProvider,${ep.id},sub") {
+                this.name = ep.title ?: "Episode ${ep.number}"
+                this.episode = ep.number
+                this.posterUrl = ep.image
+            }
+        } ?: emptyList()
 
-        val episodeRes = app.get("$apiUrl/api/episodes/$animeId")
-            .parsed<EpisodeListResponse>()
+        val dubEpisodes = providerData?.episodes?.dub?.map { ep ->
+            newEpisode("$selectedProvider,${ep.id},dub") {
+                this.name = ep.title ?: "Episode ${ep.number}"
+                this.episode = ep.number
+                this.posterUrl = ep.image
+            }
+        } ?: emptyList()
 
-        val episodes = episodeRes.results.episodes.map { ep ->
-            Episode(
-                data = "$animeId,${ep.id},${ep.episode_no}",
-                name = ep.title ?: "Episode ${ep.episode_no}",
-                episode = ep.episode_no
-            )
-        }
-
-        val showType = when (info.showType?.lowercase()) {
-            "movie" -> TvType.AnimeMovie
-            "ova" -> TvType.OVA
+        val showType = when (info.format?.uppercase()) {
+            "MOVIE" -> TvType.AnimeMovie
+            "OVA", "ONA", "SPECIAL" -> TvType.OVA
             else -> TvType.Anime
         }
 
-        return newAnimeLoadResponse(info.title, url, showType) {
-            this.posterUrl = info.poster
-            this.plot = animeInfo["Overview"]?.toString()
-            this.tags = (animeInfo["Genres"] as? List<*>)?.map { it.toString() }
-            this.showStatus = when (animeInfo["Status"]?.toString()?.lowercase()) {
-                "finished airing" -> ShowStatus.Completed
-                "currently airing" -> ShowStatus.Ongoing
+        val title = info.title?.english ?: info.title?.romaji ?: "Unknown"
+
+        return newAnimeLoadResponse(title, url, showType) {
+            this.posterUrl = info.coverImage?.large
+            this.backgroundPosterUrl = info.bannerImage
+            this.plot = info.description?.replace(Regex("<[^>]*>"), "")
+            this.tags = info.genres
+            this.showStatus = when (info.status?.uppercase()) {
+                "FINISHED" -> ShowStatus.Completed
+                "RELEASING" -> ShowStatus.Ongoing
                 else -> null
             }
-            addEpisodes(DubStatus.Subbed, episodes)
+            if (subEpisodes.isNotEmpty()) addEpisodes(DubStatus.Subbed, subEpisodes)
+            if (dubEpisodes.isNotEmpty()) addEpisodes(DubStatus.Dubbed, dubEpisodes)
         }
     }
-
-    // ─── Load Links (Stream URLs) ──────────────────────────────────────────────
 
     override suspend fun loadLinks(
         data: String,
@@ -190,70 +163,54 @@ class MiruroProvider : MainAPI() {
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit
     ): Boolean {
-        val parts = data.split(",")
-        if (parts.size < 2) return false
+        val parts = data.split(",", limit = 3)
+        if (parts.size < 3) return false
         val episodeId = parts[1]
 
-        listOf("sub", "dub").forEach { type ->
-            try {
-                val streamRes = app.get(
-                    "$apiUrl/api/stream",
-                    params = mapOf(
-                        "id" to episodeId,
-                        "server" to "hd-1",
-                        "type" to type
-                    )
-                ).parsed<StreamResponse>()
+        val streamRes = app.get("$apiUrl/$episodeId").parsed<StreamResponse>()
 
-                streamRes.results.streamingLink.forEach { stream ->
-                    val m3u8Url = stream.link.file
-                    if (m3u8Url.isNotBlank()) {
-                        callback(
-                            ExtractorLink(
-                                source = name,
-                                name = "$name ${type.uppercase()} - ${stream.server ?: "HD-1"}",
-                                url = m3u8Url,
-                                referer = mainUrl,
-                                quality = Qualities.Unknown.value,
-                                isM3u8 = m3u8Url.contains(".m3u8")
-                            )
-                        )
-                        stream.tracks?.forEach { track ->
-                            if (track.kind == "captions" || track.kind == "subtitles") {
-                                subtitleCallback(
-                                    SubtitleFile(
-                                        lang = track.label ?: "Unknown",
-                                        url = track.file
-                                    )
-                                )
-                            }
+        streamRes.streams?.forEach { stream ->
+            if (stream.url.isNotBlank()) {
+                callback(
+                    newExtractorLink(
+                        source = name,
+                        name = "$name ${stream.quality ?: ""}".trim(),
+                        url = stream.url,
+                        type = if (stream.url.contains(".m3u8")) ExtractorLinkType.M3U8 else ExtractorLinkType.VIDEO
+                    ) {
+                        this.referer = mainUrl
+                        this.quality = when (stream.quality) {
+                            "1080p" -> Qualities.P1080.value
+                            "720p" -> Qualities.P720.value
+                            "480p" -> Qualities.P480.value
+                            "360p" -> Qualities.P360.value
+                            else -> Qualities.Unknown.value
                         }
                     }
-                }
-            } catch (e: Exception) {
-                // Type not available, skip
+                )
             }
         }
+
+        streamRes.subtitles?.forEach { sub ->
+            subtitleCallback(
+                newSubtitleFile(
+                    lang = sub.label ?: "Unknown",
+                    url = sub.file
+                )
+            )
+        }
+
         return true
     }
 
-    // ─── Helper: AnimeEntry → SearchResponse ──────────────────────────────────
-
     private fun AnimeEntry.toSearchResponse(): AnimeSearchResponse {
+        val title = this.title?.english ?: this.title?.romaji ?: "Unknown"
         return newAnimeSearchResponse(
             name = title,
             url = "$mainUrl/watch/$id",
             type = TvType.Anime
         ) {
-            this.posterUrl = poster
-            this.dubStatus = when {
-                tvInfo?.dub != null && tvInfo.dub > 0 && tvInfo.sub != null && tvInfo.sub > 0 ->
-                    EnumSet.of(DubStatus.Dubbed, DubStatus.Subbed)
-                tvInfo?.dub != null && tvInfo.dub > 0 ->
-                    EnumSet.of(DubStatus.Dubbed)
-                else ->
-                    EnumSet.of(DubStatus.Subbed)
-            }
+            this.posterUrl = this@toSearchResponse.coverImage?.large
         }
     }
 }
